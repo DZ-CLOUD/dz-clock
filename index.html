@@ -10,8 +10,50 @@
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
-<body class="bg-dark">
-    
+<body class="dark">
+    <div class="container-fluid">
+        <section class="row">
+            <sidebar class="col-2">
+                <div>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="pill" href="#timer">
+                                <md-filled-button class="w-100">Timer</md-filled-button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" href="#stopwatch">
+                                <md-filled-button class="w-100">Stopwaatch</md-filled-button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" href="#clock">
+                                <md-filled-button class="w-100">Clock</md-filled-button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" href="#alarm">
+                                <md-filled-button class="w-100">Alarm</md-filled-button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </sidebar>
+            <main class="col">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane container active" id="timer">
+                        <div>
+                            <h4>Timer</h4>
+                        </div>
+                    </div>
+                    <div class="tab-pane container fade" id="stopwatch">...</div>
+                    <div class="tab-pane container fade" id="clock">...</div>
+                    <div class="tab-pane container fade" id="alarm">...</div>
+                </div>
+            </main>
+        </section>
+    </div>
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/bundle.js"></script>

@@ -1,6 +1,6 @@
 {
-    "name": "DZ Timer",
-    "short_name": "DZ Timer",
+    "name": "DZ Clock",
+    "short_name": "DZ Clock",
     "theme_color": "#2196f3",
     "background_color": "#2196f3",
     "display": "fullscreen",
