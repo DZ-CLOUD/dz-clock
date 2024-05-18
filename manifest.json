@@ -1,0 +1,10 @@
+{
+    "name": "DZ Timer",
+    "short_name": "DZ Timer",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+  }
